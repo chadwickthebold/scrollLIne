@@ -11,4 +11,5 @@ Shooting for IE9+ support, and all modern browsers.
 - [ ] Actually get scrollLine working
 - [ ] Support for any content inside item
 - [ ] Support for defining content via JSON
-- [ ] Maybe get a scrollbar working?
+- [ ] Support for a visible scrollbars
+- [ ] Handle JS exceptions on errors

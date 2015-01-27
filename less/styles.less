@@ -11,20 +11,36 @@ body {
 
 	.scrollLine-container {
 		position: absolute;
+		width: 100%;
 		list-style: none;
-		padding: 1rem;
+		padding: 20% 0;
 		margin: 0;
 
 		.scrollLine-item {
-			font-size: 1.5rem;
+			overflow: hidden;
+			width: 50%;
+			height: 1em;
+			padding: 0.5em;
+			margin: 0.5rem auto;
+			font-size: 100%;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			text-align: center;
+			border: 1px solid #333333;
 
-			&.is-primary {
-
+			&.is-preactive {
+				font-size: 12s0%;
+				width: 70%;
 			}
 
-			&.is-secondary {
-
+			&.is-active {
+				font-size: 200%;
+				width: 95%;
+				white-space: normal;
+				overflow: visible;
+				height: auto;
 			}
+
 		}
 	}
 }
@@ -32,4 +48,5 @@ body {
 .test-comp {
 	width: 40rem;
 	height: 20rem;
+	margin: 0 auto;
 }
